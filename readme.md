@@ -1,0 +1,22 @@
+This is a command line interface project which helps user to handle tasks based on commands:
+
+add :add you want to add
+update:\tupdate with updated details>" <task_id of which task you want to update>
+delete:\tdelete <task_id of the task you want to delete>
+list:\tlist (lists all of the task)
+list with status:list <status>
+mark-in-progress:mark-in-progress <task_id to mark>
+mark-todo:\tmark-todo <task_id to mark>
+mark-done:\tmark-done <task_id to mark>
+ctrl + (any key): for exit
+
+add: command to create new task 
+update command to update the task with its id
+list command to list all the tasks
+list with status to list with status(done, not-done, in-progress)
+mark-in-progress, mark-todo, mark-done to mark the status for the task
+ctrl + any key for exitiing
+
+after exit, it saves all the task in a json file.
+
+https://roadmap.sh/projects/task-tracker
